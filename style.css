@@ -1,0 +1,433 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-color: #577399;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F7F7FF;
+    width: 100%;
+    height: 70px;
+   
+    
+    position: fixed;
+    top:0;
+
+
+    z-index: 1000;
+}
+
+.nav-search
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: absolute;
+    left:1.5rem;
+}
+.fa-magnifying-glass
+{
+    background-color: rgb(188, 188, 188);
+    padding: 12px;
+    margin: 0;
+    border: none;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.fa-magnifying-glass:hover
+{
+    background-color: #D33F49;
+    color: #E1F2FE;
+}
+.nav-searchBar
+{
+    width:30vw;
+    height:40px;
+    border: none;
+    margin: 0;
+    background-color: rgb(188, 188, 188);
+}
+
+.fa-location-dot
+{
+    background-color: rgb(188, 188, 188);
+    font-size: 20px;
+    padding:10px;
+    padding-right: 15px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.fa-location-dot:hover
+{
+    background-color: #D33F49;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left:50%;
+}
+.fa-studiovinari
+{
+    color: #283a4d;
+    font-size: 2.5rem;
+}
+
+.nav-options
+{
+    position: absolute;
+    right:1rem;
+    cursor: pointer;
+}
+.option
+{
+    margin: 15px;
+    
+}
+
+
+/* cancleld */
+/* .allDropdown
+{
+    background-color: rgb(188, 188, 188);
+    border: none;
+    padding:12px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.allDropdown:hover
+{
+    background-color: #D33F49;
+    color: white;
+} */
+
+
+/* .fa-location-dot
+{
+    background-color: rgb(188, 188, 188);
+    font-size: 20px;
+    padding:10px;
+    padding-right: 15px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.fa-location-dot:hover
+{
+    background-color: #D33F49;
+}  */
+
+/* .logo
+{
+    display: flex;
+    justify-content: center;
+}
+.nav-options
+{
+    position: relative;
+    left:80px;
+    cursor: pointer;
+}
+.option
+{
+    justify-content: space-around;
+    margin: 20px;
+    
+} */
+
+.foot-nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 4rem;
+    width: 100%;    /*THIS LINE MAKES THESE TWO BUTTONS CENTERED, NOW INTUITIVELY IMAGINE HOW */
+
+    z-index: 1000;
+}
+
+.foot
+{
+    font-size: 15px;
+    color:white;
+    background-color: #D33F49;
+    padding: 15px;
+    margin:2px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.foot-nav1
+{   
+    color: #093824;
+    background-color: #E1F2FE;
+    border:1px solid #093824;
+    margin-right: 5px;
+
+    display: flex;
+    align-items: center;
+}
+.fa-ethereum
+{
+    font-size: 25px;
+    margin-left: 5px;
+    color: rgb(110, 5, 134);
+}
+.foot-hover1:hover
+{
+    background-color: #b9e1fe;
+}
+.foot-hover2:hover
+{
+    background-color: #106842;
+}
+
+
+.hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    position: relative;
+    background-image: url("bg-hero.jpg");
+    background-size: 100%;
+    background-position-y: -51px;
+}
+.a11
+{
+    font-size: 5rem;
+    position: absolute;
+    top:10rem;
+    font-family: 'mukta', sans-serif;
+    letter-spacing: -0.1rem;
+    color: white;
+    /* background-color: #D33F49; */
+    margin-bottom: 11rem;
+}
+
+
+
+/* .foot-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.foot {
+    margin: 5px;  
+    background-color: #D33F49;
+    color: white;
+    border: none;
+    border-radius: 15px;
+} */
+
+
+/* ----------------------------- */
+.card-padding
+{
+    width:500px;
+    height: auto;
+    padding:20px;
+    background-color: #D0E1F1;
+    border-radius: 4rem;
+    transition:0.2s ease-in-out;
+}
+.card-padding:hover
+{
+    background-color: #FE5F55;
+    transform: scale(1.05);
+}
+/* .items
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    
+} */
+
+.items
+{
+    /* background-image: linear-gradient(#2D383D,#211103,#361107,#6F0C1A,#981F40,#7a1522) */
+    /* background-image: linear-gradient(#102742,#183348,#203F4D,#274B53,#2F5759,#37645E); */
+    background-image: linear-gradient(#102742,#467C6A);
+}
+.a-items
+{
+    display: grid;
+    grid-template-rows: repeat(22,51px) ;
+    grid-template-columns: repeat(28,51px) ;
+    justify-content: center;
+    align-items: center;
+}
+.trekbag
+{   
+    grid-column: 2/2;
+    grid-row: 10/10;
+    width:550px;
+}
+
+.tent
+{
+    /* display: none; */
+    grid-column: 16/16;
+    grid-row: 8/8;
+    
+    width: 400px;
+}
+.cycle
+{
+    /* display: none; */
+    grid-column: 8/8;
+    grid-row: 14/14;
+}
+.attire
+{
+    grid-column: 3/3 ;
+    grid-row: 14/14;
+    width:350px;
+}
+
+/* .trekbag
+{
+    position: relative;
+    align-items: center;
+    top:4rem;
+    right:8rem;
+    width: 550px;
+
+}
+.tent
+{
+    
+    position: relative;
+    align-items: center;
+    width: 400px;
+    top:3rem;
+    left:10rem;
+
+}
+.cycle
+{
+
+    position: relative;
+    align-items: center;
+    width: 600px;
+    top:70rem;
+    
+} */
+
+
+
+.trek-hero-1
+{
+    background-image: linear-gradient(to right,#07180F,#284835);
+    position: relative;
+    top:70px;
+    padding:100px;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.back-text
+{
+    color: white;
+    font-size: 300px;
+    position: absolute;
+    top:120px;
+    font-family: 'Protest Revolution', sans-serif;
+    letter-spacing: -0.75rem;
+    text-shadow: 0.7rem 0.7rem 4rem rgba(137, 8, 8, 0.845);
+}
+
+.backpack-img
+{
+    position: relative;
+    top:40px;
+}
+
+.trek-hero-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    /* background-image: radial-gradient(#5a2515,#0b2315); */
+    
+    /* gradient generator online */
+    background: radial-gradient(circle at 50% 50%, rgba(58, 10, 79, 0.756) 0%, rgb(49, 34, 53) 52%, rgba(6, 28, 17, 1) 100%);
+
+    position: relative;
+}
+
+.trek-catchy
+{
+    color: rgb(227,149,74);
+    font-size: 160px;
+    font-family: 'mukta', sans-serif;
+}
+.catchy-1
+{
+    position: relative;
+    top:100px;
+    right:200px;
+}
+.catchy-2
+{
+    position: relative;
+    right:350px;
+    bottom:20px;
+   
+}
+
+.trek-header
+{
+    position: relative;
+    right:35px;
+    bottom:50px;
+
+    color: rgb(163, 196, 243);
+    font-size: 70px;
+    font-family: 'mukta', sans-serif;
+}
+.floating-forest
+{
+    width:500px;
+    position: relative;
+    bottom:525px;
+    left:350px;
+}
+.trek-foot-buy
+{
+    padding:18px;
+}
+.fa-tags
+{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
